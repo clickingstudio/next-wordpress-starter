@@ -1,0 +1,9 @@
+"rewrites": [
+    {
+      "source": "/blog",
+      "destination": "https://1o1news.com"
+    },{
+      "source": "/blog/:match*",
+      "destination": "https://1o1news.com/:match*/"
+    }
+  ],
