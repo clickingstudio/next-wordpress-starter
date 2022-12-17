@@ -6,4 +6,4 @@
       "source": "/blog/:match*",
       "destination": "https://vindieselunofficial.media/:match*/"
     }
-  ],
+  ]
