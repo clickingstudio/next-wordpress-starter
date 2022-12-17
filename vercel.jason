@@ -1,7 +1,7 @@
 "rewrites": [
     {
       "source": "/blog",
-      "destination": "https://next-wordpress-starter-five.vercel.app/"
+      "destination": "https://vindieselunofficial.media/"
     },{
       "source": "/blog/:match*",
       "destination": "https://vindieselunofficial.media/:match*/"
