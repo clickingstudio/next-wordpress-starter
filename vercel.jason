@@ -1,9 +1,11 @@
-"rewrites": [
-    {
-      "source": "/blog",
-      "destination": "https://vindieselunofficial.media/"
-    },{
-      "source": "/blog/:match*",
-      "destination": "https://vindieselunofficial.media/:match*/"
-    }
-  ]
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/about',
+        destination: 'https://vindieselunofficial.media/',
+        permanent: true,
+      },
+    ]
+  },
+}
