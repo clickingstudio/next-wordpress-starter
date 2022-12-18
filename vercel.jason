@@ -2,7 +2,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/about',
+        source: '/blog',
         destination: 'https://vindieselunofficial.media/',
         permanent: true,
       },
