@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/:path*", "destination": "https://1o1news.com/:path*" }
+  ]
+}
